@@ -1,6 +1,7 @@
 from pytube import Playlist
 from multiprocessing import Pool
 
+#install pytube first by: pip install pytube
 def download_video(video_url, download_directory):
     try:
         from pytube import YouTube
